@@ -41,9 +41,18 @@
         text-align: center;
      }
 
-    /*div.front{
+    div.front{
         position: relative;
-    }*/
+    }
+
+    table.info{
+        position:absolute;
+        bottom: 0;
+        width:100%;
+        height: 80px;
+        color: white;
+        background-color:#8ba1bbc0 ;
+    }
 
     img{
         width: 100%;
@@ -76,7 +85,21 @@
                 </div>
                 
                 <div class="front">
-                    <img src="img/cuisine.jpg" alt="" width="600">
+                    <img src="img/cuisine.jpg" alt="" width="600" class="info">
+                    <table class="centre info">
+                        <tr>
+                            <th>Difficulte</th>
+                            <th>Preparation</th>
+                            <th>Cuisson</th>
+                            <th>Temps total</th>
+                        </tr>
+                        <tr>
+                            <td>facile</td>
+                            <td>10min</td>
+                            <td>25min</td>
+                            <td>35min</td>
+                        </tr>
+                    </table>
                 </div>
             </section>
             <section>
